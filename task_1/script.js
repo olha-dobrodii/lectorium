@@ -31,3 +31,11 @@ const h = 5;
     }
     console.log(matrix(w, h).reverse());
 
+
+    // function matrixL(wi, hi) {
+    //     return Array.from(new Array(wi), (value, wIndex) =>
+    //       Array.from(new Array(hi), (value, hIndex) => hIndex + 1 + wIndex * h) 
+    //     );
+    //    }
+    //    console.log(matrixL(wi, hi));
+   
