@@ -1,0 +1,217 @@
+/* 10*/
+div > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* 11*/
+.style {
+    text-align: center;
+    color: chartreuse;
+    padding-left: 20px;
+}
+ul.list li {
+    list-style: none; 
+    list-style-image: url("img/icon1.png");
+}
+.list1 {
+    list-style-type: upper-roman;
+}
+/* 12*/
+#twel {
+    color: red;
+    font-weight: bold;
+}
+.task2 {
+    color: seagreen;
+    font-size: 18px;
+    font-style: italic;
+}
+.one {
+    color: red;
+}
+.two {
+    color:blue;
+}
+.input_task2 {
+    font-size: 20px;
+}
+/* 13*/
+.task13 {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    left: 10px;
+    right: 15px;
+    border: blue solid 1px;
+}
+.task13_1 {
+    width: 20%;
+    height: 20%;
+    background: royalblue;
+    border: blue solid 1px;
+    position: relative;
+    float: right;
+}
+.task13_2 {
+    width: 40%;
+    height: 40%;
+    background: salmon;
+    border: blue solid 1px;
+    position: relative;
+
+}
+/*14*/
+.task14 {
+    height: 250px;
+    width: 250px;
+    background: url("img/grusha.jpg");
+    margin: 20px;
+}
+.task14_1 {
+    height: 250px;
+    width: 250px;
+    background: url("img/icon.png") no-repeat rgb(57, 96, 202);
+    border: rgb(10, 10, 10) solid 2px;
+    box-shadow: inset -5px 5px;
+    inset: 3px 10px 3px 10px;
+    margin: 20px;
+}
+/*15*/
+.task15 div {
+    background:url("img/sprite.jpg") no-repeat;
+    border:1px solid;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.icon1 {
+    background-position: -11px -11px;
+}
+.icon2 {
+    background-position: -11px -11px;
+}
+.icon3 {
+    background-position: -11px -11px;
+}
+.icon4 {
+    background-position: -11px -11px;
+}
+.icon5 {
+    background-position: -11px -11px;
+}
+.icon6 {
+    background-position: -11px -11px;
+}
+.icon6 {
+    background-position: -11px -11px;
+}
+/*16*/
+.grad1 {
+    background: linear-gradient(30deg, red, blue);
+    width: 300px;
+    height: 300px;
+}
+.grad2 {
+    background: linear-gradient( yellow, red 20% , blue 70%);
+    width: 300px;
+    height: 300px;
+}
+.grad3 {
+    background: radial-gradient(yellow, blue);
+    width: 300px;
+    height: 300px;
+}
+.grad4 {
+    background: radial-gradient(at 20% 70%, yellow, blue);
+    width: 300px;
+    height: 300px;
+}
+/*17*/
+.anime {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    transition: all 0.5s ease;
+    animation: rotate 1s linear infinite;
+    margin: 50px;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+}
+.anime3 {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    transition: 2s ;
+    margin: 50px;
+}
+.anime3:hover {
+    width: 100%;
+    background: chocolate;
+}
+.anime4 {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    transition: 7s ;
+    margin: 50px;
+}
+.anime4:hover {
+    width: 200px;
+    height: 200px;
+    background: chocolate;
+}
+.anime5 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 50px;
+    animation-name: color;
+    animation-duration: 6s;
+}
+@keyframes color {
+    0% {
+        background-color: blue;
+    }
+    20% {
+        border-radius: 50%;
+    }
+    40% {
+        background: green;
+        border-radius: 20px 20px 0 0;
+    }
+    60% {
+        background: orange;
+        border-radius: 0;
+        border: 3px;
+    }
+    100% {
+        height: 100px;
+    }
+}
+/*18*/
+.task_18 li:hover {
+    color: brown;
+}
+.task_18 li:active {
+    color: chartreuse;
+}
+.point{
+    list-style: none; 
+    color: blue;   
+    padding: 15px; 
+}
+/*
+.task_18 li:not(.point){
+    color: blueviolet;
+} */
+.task_18 li:nth-child(4){
+    color: darkblue;
+}
+.form_5 input[type="radio"]:checked + label{
+    color: green;
+}
